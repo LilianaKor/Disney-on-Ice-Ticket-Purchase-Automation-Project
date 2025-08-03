@@ -22,19 +22,19 @@ Cross-browser readiness (Chromium, Firefox, WebKit)
 
 Playwright is selected for this project because it aligns perfectly with the scenario requirements:
 
-# "Times Function" Implementation:
+### "Times Function" Implementation:
 Adding tickets multiple times is easily achieved using a for loop, mimicking the "times function" logic mentioned in the scenario.
 
-# Dynamic Element Handling:
+### Dynamic Element Handling:
 The scenario involves closing floating windows, verifying text presence, and interacting with dynamically appearing buttons. Playwright’s auto-waiting mechanisms ensure reliable and concise code for these steps.
 
-# Modern Alternative to Selenium:
+### Modern Alternative to Selenium:
 Playwright simplifies interactions that would require manual waits and complex handling in Selenium. It provides a robust solution with less code and greater stability, which is excellent for demonstration purposes.
 
-# Visual Execution (headless=False):
+### Visual Execution (headless=False):
 As the scenario describes "let’s see how it works", Playwright allows running tests in visible browser mode, making it ideal for presentations and recording demo videos.
 
-# Cross-Browser Support:
+### Cross-Browser Support:
 Playwright supports Chromium, Firefox, and WebKit (Safari engine), making the test ready for cross-browser validation without additional setup.
 
 ## Project Goals
@@ -152,13 +152,13 @@ def run_test(test_type="positive"):
 
         browser.close()
 
-# Run Positive Test
+### Run Positive Test
 run_test("positive")
 
-# Run Negative Test
+### Run Negative Test
 run_test("negative")
 
-# Thank you for reviewing this project!
+### Thank you for reviewing this project!
 
 ## Liliana Koretska
 Automation QA Engineer | Python | Playwright | Web & Mobile Testing
